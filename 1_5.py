@@ -1,0 +1,10 @@
+#This progarm say hello and ask your name
+print('Hello world!')
+print('What\'s your name?')
+name = input('> ')
+print('Nice to meet you ' + name)
+print('The length of your name is:')
+print(len(name))
+print('How old are you?')
+age = input('> ')
+print('You will be ' + str(int(age)+1) + ' years old next year.')

@@ -1,0 +1,8 @@
+print('Hello1')
+print('World1')
+print('=======')
+print('Hello2', 'World2', end = '*END*')
+print('Hello3', 'World3', end = '*END*')
+print('=======')
+print('Hello4', 'World4', sep = '#SEP#',)
+print('=======')

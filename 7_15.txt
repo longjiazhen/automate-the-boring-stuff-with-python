@@ -1,0 +1,10 @@
+原文：
+aaa phone is (800)-420-7240, email is info@nostarch.com. bbb phone is 415 863 9900, eamil is academic@nostarch.com. ccc phone is 123.863.9950, email is help@nostarch.com.
+
+预期结果：
+(800)-420-7240
+415-863-9900
+123-863-9950
+info@nostarch.com
+academic@nostarch.com
+help@nostarch.com
