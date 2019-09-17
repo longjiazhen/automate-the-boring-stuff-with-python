@@ -1,5 +1,4 @@
 第八章  读写文件
-一、文件与文件路径
 os.path.join() 返回一个文件路径的字符串
 这个用处是因为，windows的文件路径用的反斜杠，而 OS X 和 linux 用的是正斜杠
 注意：每个倒斜杠需要另一个倒斜杠来转义
@@ -22,7 +21,6 @@ os.listdir(path) 返回path路径下的所有文件名，注意这里是os模块
 检查path参数是否存在并且是一个文件，os.path.isfile(path)
 检查path参数是否存在并且是一个文件夹，os.path.isdir(path)
 
-二、读写文件
 文件读写过程：
 1. 调用open()函数，返回一个file对象
 2. 调用file对象的read()或者write()对象
@@ -46,6 +44,17 @@ shelve模块：用二进制临时保存数据
 导入pprint模块：
 pprint.pprint() 可以将列表或者字典中的内容漂亮打印到屏幕
 pprint.pformat() 则是返回同样的文本字符串
+
+习题：
+1. 相对路径是相对于当前路径
+2. 绝对路径是从根目录开始
+3. os.getcwd() 获取当前路径，os.chdir()进入另一个路径
+4. 当前目录. 上一级目录..
+5. 在 C:\bacon\eggs\spam.txt 中，目录名称是 C:\bacon\eggs\ 基本名称是 spam.txt
+6. 可以传给open()函数的3种模式参数是 'r', 'w', 'a'
+7. 已有文件以写模式打开，会覆盖之前的内容
+8. read() 是将所有内容读取至一个大字符串，readlines() 是逐行读取，保存至列表
+9. shelf值与字典相似
 
 
 
