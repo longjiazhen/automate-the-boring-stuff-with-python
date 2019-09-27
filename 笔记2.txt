@@ -17,7 +17,7 @@ os.path.split()的作用相当于(os.path.dirname('temp.txt'),os.path.basename('
 '/usr/bin'.split(os.path.sep) 返回路径中每个文件夹的字符串列表（以/分隔）
 os.path.getsize(path)返回path参数中文件的字节数
 os.listdir(path) 返回path路径下的所有文件名，注意这里是os模块，不是os.path模块
-检查path参数所指的文件或者文件夹是否存在，os.path.exits(path)
+检查path参数所指的文件或者文件夹是否存在，os.path.exist(path)
 检查path参数是否存在并且是一个文件，os.path.isfile(path)
 检查path参数是否存在并且是一个文件夹，os.path.isdir(path)
 
